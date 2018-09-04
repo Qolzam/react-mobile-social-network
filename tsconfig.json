@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "jsx": "react-native",
+        "sourceRoot":"app",
+        "outDir":"build",/*
+        "allowJs": true,
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitReturns": true,
+        "importHelpers":true,
+        */
+        "allowSyntheticDefaultImports" :true,
+        "sourceMap": true
+    },
+    "include": [
+        "app"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
