@@ -16,7 +16,7 @@
     "babel": "^6.23.0",
     "babel-plugin-module-alias": "^1.6.0",
     "contrast": "^1.0.1",
-    "firebase": "^4.1.2",
+    "firebase": "^4.5.1",
     "initials": "^2.1.5",
     "lodash": "^4.17.4",
     "lodash.merge": "^4.6.0",
