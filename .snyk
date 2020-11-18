@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.12.0
+version: v1.19.0
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -92,3 +92,20 @@ patch:
         patched: '2018-09-04T04:11:59.569Z'
     - react-native > connect > serve-index > accepts > negotiator:
         patched: '2018-09-04T04:11:59.569Z'
+  SNYK-JS-LODASH-567746:
+    - react-native > @react-native-community/cli > metro > async > lodash:
+        patched: '2020-11-18T02:36:52.363Z'
+    - react-native > @react-native-community/cli > metro-config > metro > async > lodash:
+        patched: '2020-11-18T02:36:52.363Z'
+    - react-native > @react-native-community/cli > metro > react-transform-hmr > react-proxy > lodash:
+        patched: '2020-11-18T02:36:52.363Z'
+    - react-native > metro-react-native-babel-transformer > metro-react-native-babel-preset > react-transform-hmr > react-proxy > lodash:
+        patched: '2020-11-18T02:36:52.363Z'
+    - react-native > @react-native-community/cli > metro-config > metro > react-transform-hmr > react-proxy > lodash:
+        patched: '2020-11-18T02:36:52.363Z'
+    - react-native > @react-native-community/cli > metro > metro-react-native-babel-preset > react-transform-hmr > react-proxy > lodash:
+        patched: '2020-11-18T02:36:52.363Z'
+    - react-native > @react-native-community/cli > metro-react-native-babel-transformer > metro-react-native-babel-preset > react-transform-hmr > react-proxy > lodash:
+        patched: '2020-11-18T02:36:52.363Z'
+    - react-native > @react-native-community/cli > metro-config > metro > metro-react-native-babel-preset > react-transform-hmr > react-proxy > lodash:
+        patched: '2020-11-18T02:36:52.363Z'
